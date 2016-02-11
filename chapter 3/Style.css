@@ -1,0 +1,99 @@
+body {
+	background: #f9e933;
+	font-family: Droid Sans;
+}
+
+h1, h2, h3, h4 {
+	font-family: Ubuntu;
+}
+
+a {
+	text-decoration: none;
+	color: Red;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+	padding-bottom: 10px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: Silver;
+}
+
+main {
+	background: white;
+	overflow: auto;
+	padding-top: 10px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 16pt;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 16pt;
+	padding-bottom: 10px;
+}
+
+h5 {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+img {
+	float: right;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+	color: Red;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: bold;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+footer {
+	clear: both;
+}
+
+.contact {
+	float: left;
+	width: 570px;
+}
+
+.contact p:first-of-type{
+	font-style: italic;
+	color: Red;
+}
+
+.sitemap {
+	float: right;
+	width: 285px;
+}
